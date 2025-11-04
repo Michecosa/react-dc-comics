@@ -2,6 +2,7 @@
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   padding-block: 1.5rem;
 
@@ -17,6 +18,7 @@
 #follow-us {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
   color: #0282f9;
 }
