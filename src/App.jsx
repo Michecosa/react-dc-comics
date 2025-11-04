@@ -10,9 +10,13 @@ function App() {
         </div>
       </header>
 
-      <main></main>
+      <main>
+        <div className="container"></div>
+      </main>
 
-      <footer></footer>
+      <footer>
+        <div className="container"></div>
+      </footer>
     </>
   );
 }
