@@ -13,38 +13,38 @@ export default function Footer() {
       </div>
       <div id="follow-us">
         <h2>Follow Us</h2>
-        <div class="footer-logo-container">
+        <div className="footer-logo-container">
           <img
             src={footerFacebook}
-            class="footer-logo"
+            className="footer-logo"
             alt="footer social logo"
           />
         </div>
-        <div class="footer-logo-container">
+        <div className="footer-logo-container">
           <img
             src={footerTwitter}
-            class="footer-logo"
+            className="footer-logo"
             alt="footer social logo"
           />
         </div>
-        <div class="footer-logo-container">
+        <div className="footer-logo-container">
           <img
             src={footerYoutube}
-            class="footer-logo"
+            className="footer-logo"
             alt="footer social logo"
           />
         </div>
-        <div class="footer-logo-container">
+        <div className="footer-logo-container">
           <img
             src={footerPinterest}
-            class="footer-logo"
+            className="footer-logo"
             alt="footer social logo"
           />
         </div>
-        <div class="footer-logo-container">
+        <div className="footer-logo-container">
           <img
             src={footerPeriscope}
-            class="footer-logo"
+            className="footer-logo"
             alt="footer social logo"
           />
         </div>
