@@ -12,3 +12,8 @@
     color: white;
   }
 }
+
+#cards-container {
+  display: flex;
+  gap: 3rem;
+}

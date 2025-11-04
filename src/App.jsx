@@ -1,6 +1,13 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Card from "./Card";
+
+import digitalComics from "./assets/img/buy-comics-digital-comics.png";
+import merchandise from "./assets/img/buy-comics-merchandise.png";
+import subscriptions from "./assets/img/buy-comics-subscriptions.png";
+import shopLocator from "./assets/img/buy-comics-shop-locator.png";
+import powerVisa from "./assets/img/buy-dc-power-visa.svg";
 
 function App() {
   return (
@@ -18,7 +25,15 @@ function App() {
           </div>
         </div>
         <div id="shop-info" className="content">
-          <div className="container"></div>
+          <div className="container">
+            <div id="cards-container">
+              <Card imageUrl={digitalComics} text="Digital comics" />
+              <Card imageUrl={merchandise} text="DC merchandise" />
+              <Card imageUrl={subscriptions} text="Subscription" />
+              <Card imageUrl={shopLocator} text="Comic Shop locator" />
+              <Card imageUrl={powerVisa} text="DC power visa" />
+            </div>
+          </div>
         </div>
       </main>
 
