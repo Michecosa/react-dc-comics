@@ -15,8 +15,50 @@
   font-weight: bolder;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  flex-shrink: 0;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+header {
+  background-color: var(--white);
+}
+
+main {
+  background-color: var(--black);
+
+  #shop-info {
+    background-color: var(--blue);
+  }
+}
+
+footer {
+  background-color: var(--dark-gray);
 }
