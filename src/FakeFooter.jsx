@@ -5,7 +5,7 @@ export default function FakeFooter() {
   return (
     <div id="fake-footer-container">
       <div id="fake-footer-list">
-        <div class="first-column">
+        <div className="first-column">
           <div className="top-footer-list">
             <h2>DC Comics</h2>
             <ul>
