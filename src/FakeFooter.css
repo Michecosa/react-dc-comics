@@ -34,13 +34,6 @@
   }
 }
 
-#footer-img-container {
-  position: relative;
-}
-
 #footer-img-container img {
-  position: absolute;
-  right: 0;
-  top: -17%;
   transform: scale(1.5);
 }
