@@ -35,3 +35,35 @@ nav li:hover {
   color: #0282f9;
   border-bottom: 4px solid #0282f9;
 }
+
+/* Responsive */
+.btn {
+  background-color: transparent;
+  border: 0;
+}
+
+.btn-burger {
+  font-size: 2rem;
+}
+
+.btn-burger:hover {
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.links-container {
+  display: flex;
+}
+
+@media (max-width: 1840px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .links-container {
+    display: none;
+  }
+}

@@ -1,3 +1,4 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
 import Logo from "./Logo";
 import "./Navbar.css";
 
@@ -7,6 +8,10 @@ export default function Navbar() {
       <div className="logo-container">
         <Logo />
       </div>
+
+      <button className="menu-toggle btn btn-burger">
+        <i className="bi bi-list"></i>
+      </button>
 
       <div className="links-container">
         <ul>
