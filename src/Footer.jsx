@@ -9,7 +9,9 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div>
-        <button className="btn btn-signup">SIGN-UP NOW!</button>
+        <a href="#" className="btn btn-signup">
+          SIGN-UP NOW!
+        </a>
       </div>
       <div id="follow-us">
         <h2>Follow Us</h2>
