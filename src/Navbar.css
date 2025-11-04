@@ -12,7 +12,7 @@ nav ul {
 
 nav li {
   list-style: none;
-  padding: 52px 0;
+  padding: 4rem 0;
   border-bottom: 4px solid white;
 }
 
@@ -48,6 +48,7 @@ nav li:hover {
 
 .btn-burger:hover {
   cursor: pointer;
+  color: #0282f9;
 }
 
 .menu-toggle {
@@ -61,6 +62,10 @@ nav li:hover {
 @media (max-width: 1840px) {
   .menu-toggle {
     display: block;
+
+    &.btn {
+      padding-block: 3.5rem;
+    }
   }
 
   .links-container {
