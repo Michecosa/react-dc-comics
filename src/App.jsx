@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
       </main>
 
       <footer>
-        <div className="container"></div>
+        <div className="container">
+          <Footer />
+        </div>
       </footer>
     </>
   );
