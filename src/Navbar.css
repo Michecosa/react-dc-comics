@@ -6,13 +6,13 @@ nav {
 
 nav ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
+  gap: 52px;
 }
 
 nav li {
   list-style: none;
   padding: 52px 0;
-  margin-inline: 35px;
   border-bottom: 4px solid white;
 }
 
