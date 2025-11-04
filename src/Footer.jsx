@@ -9,10 +9,10 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div>
-        <button>SIGN-UP NOW!</button>
+        <button className="btn btn-signup">SIGN-UP NOW!</button>
       </div>
       <div id="follow-us">
-        <div>Follow Us</div>
+        <h2>Follow Us</h2>
         <div class="footer-logo-container">
           <img
             src={footerFacebook}

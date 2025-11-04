@@ -4,8 +4,24 @@
   align-items: center;
 }
 
+.footer-container > * {
+  padding-block: 2rem;
+}
+
 #follow-us {
   display: flex;
   align-items: center;
   gap: 2rem;
+  color: #0282f9;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: transparent;
+}
+
+.btn-signup {
+  font-size: 1.3rem;
+  color: white;
+  border: 3px solid #0282f9;
 }
