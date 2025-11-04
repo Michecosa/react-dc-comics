@@ -7,7 +7,7 @@ import digitalComics from "./assets/img/buy-comics-digital-comics.png";
 import merchandise from "./assets/img/buy-comics-merchandise.png";
 import subscriptions from "./assets/img/buy-comics-subscriptions.png";
 import shopLocator from "./assets/img/buy-comics-shop-locator.png";
-import powerVisa from "./assets/img/buy-dc-power-visa.svg";
+import powerVisa from "./assets/img/buy-dc-power-visa.png";
 
 function App() {
   return (
