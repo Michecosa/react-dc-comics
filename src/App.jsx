@@ -11,7 +11,14 @@ function App() {
       </header>
 
       <main>
-        <div className="container"></div>
+        <div className="container">
+          <div className="content">
+            <h2>--&gt; Content goes here &lt;--</h2>
+          </div>
+        </div>
+        <div id="shop-info" className="content">
+          <div className="container"></div>
+        </div>
       </main>
 
       <footer>

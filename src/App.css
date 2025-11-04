@@ -3,3 +3,12 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
+.content {
+  padding-block: 4rem;
+
+  h2 {
+    font-size: 2rem;
+    color: white;
+  }
+}
