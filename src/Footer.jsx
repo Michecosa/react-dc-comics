@@ -14,39 +14,49 @@ export default function Footer() {
       <div id="follow-us">
         <h2>Follow Us</h2>
         <div className="footer-logo-container">
-          <img
-            src={footerFacebook}
-            className="footer-logo"
-            alt="footer social logo"
-          />
+          <a href="#">
+            <img
+              src={footerFacebook}
+              className="footer-logo"
+              alt="footer social logo"
+            />
+          </a>
         </div>
         <div className="footer-logo-container">
-          <img
-            src={footerTwitter}
-            className="footer-logo"
-            alt="footer social logo"
-          />
+          <a href="#">
+            <img
+              src={footerTwitter}
+              className="footer-logo"
+              alt="footer social logo"
+            />
+          </a>
         </div>
         <div className="footer-logo-container">
-          <img
-            src={footerYoutube}
-            className="footer-logo"
-            alt="footer social logo"
-          />
+          <a href="#">
+            <img
+              src={footerYoutube}
+              className="footer-logo"
+              alt="footer social logo"
+            />
+          </a>
         </div>
         <div className="footer-logo-container">
-          <img
-            src={footerPinterest}
-            className="footer-logo"
-            alt="footer social logo"
-          />
+          <a href="#">
+            <img
+              src={footerPinterest}
+              className="footer-logo"
+              alt="footer social logo"
+            />
+          </a>
         </div>
         <div className="footer-logo-container">
-          <img
-            src={footerPeriscope}
-            className="footer-logo"
-            alt="footer social logo"
-          />
+          <a href="#">
+            <img
+              src={footerPeriscope}
+              className="footer-logo"
+              alt="footer social logo"
+            />
+          </a>
         </div>
       </div>
     </div>
