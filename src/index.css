@@ -41,12 +41,6 @@ footer {
   flex-shrink: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 header {
   background-color: var(--white);
 }

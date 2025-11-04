@@ -3,5 +3,19 @@
   align-items: center;
   gap: 2rem;
   color: white;
+}
+
+.card-container img {
+  height: 4rem;
+  width: 4rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.card-container p {
   text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
