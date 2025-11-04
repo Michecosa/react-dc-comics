@@ -1,0 +1,33 @@
+#fake-footer-container {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+    color: lightgrey;
+  }
+
+  li {
+    list-style: none;
+    line-height: 1.8rem;
+  }
+
+  ul {
+    margin-bottom: 3rem;
+  }
+}
+
+#fake-footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: 1.1rem;
+  }
+}
