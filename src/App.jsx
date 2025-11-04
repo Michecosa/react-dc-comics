@@ -4,7 +4,15 @@ import Navbar from "./Navbar";
 function App() {
   return (
     <>
-      <Navbar />
+      <header>
+        <div className="container">
+          <Navbar />
+        </div>
+      </header>
+
+      <main></main>
+
+      <footer></footer>
     </>
   );
 }
