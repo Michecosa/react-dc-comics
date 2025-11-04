@@ -1,13 +1,13 @@
 .card-container {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   color: white;
 }
 
 .card-container img {
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   object-fit: contain;
   flex-shrink: 0;
 }
