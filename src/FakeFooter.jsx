@@ -103,7 +103,7 @@ export default function FakeFooter() {
           </ul>
         </div>
       </div>
-      <div className="img-container">
+      <div id="footer-img-container">
         <img src={DC_Logo} alt="" />
       </div>
     </div>

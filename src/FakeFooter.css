@@ -31,3 +31,14 @@
     margin-bottom: 1.1rem;
   }
 }
+
+#footer-img-container {
+  position: relative;
+}
+
+#footer-img-container img {
+  position: absolute;
+  right: 0;
+  top: -20%;
+  transform: scale(1.5);
+}
