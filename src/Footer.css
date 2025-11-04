@@ -31,3 +31,10 @@
   color: white;
   border: 3px solid #0282f9;
 }
+
+main,
+header,
+#bottom-footer {
+  position: relative;
+  z-index: 2;
+}
