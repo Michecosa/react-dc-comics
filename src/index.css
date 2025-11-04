@@ -40,6 +40,7 @@ main {
 
 footer {
   flex-shrink: 0;
+  overflow-y: hidden;
 }
 
 header {
