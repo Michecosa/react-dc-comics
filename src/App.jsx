@@ -8,6 +8,7 @@ import merchandise from "./assets/img/buy-comics-merchandise.png";
 import subscriptions from "./assets/img/buy-comics-subscriptions.png";
 import shopLocator from "./assets/img/buy-comics-shop-locator.png";
 import powerVisa from "./assets/img/buy-dc-power-visa.png";
+import FakeFooter from "./FakeFooter";
 
 function App() {
   return (
@@ -38,8 +39,15 @@ function App() {
       </main>
 
       <footer>
-        <div className="container">
-          <Footer />
+        <div id="top-footer">
+          <div className="container">
+            <FakeFooter />
+          </div>
+        </div>
+        <div id="bottom-footer">
+          <div className="container">
+            <Footer />
+          </div>
         </div>
       </footer>
     </>

@@ -53,7 +53,15 @@ main {
   }
 }
 
-footer {
-  text-transform: uppercase;
+#top-footer {
+  background-image: url("./assets/img/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  color: white;
+}
+
+#bottom-footer {
   background-color: var(--dark-gray);
 }

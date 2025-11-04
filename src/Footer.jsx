@@ -8,8 +8,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <div id="top-footer"></div>
-      <div id="bottom-footer" className="footer-container">
+      <div className="footer-container">
         <div>
           <a href="#" className="btn btn-signup">
             SIGN-UP NOW!
