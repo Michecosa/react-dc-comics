@@ -27,6 +27,7 @@ function App() {
             </div>
           </div>
         </div>
+        <div id="comic-cards-container"></div>
         <div id="shop-info" className="content">
           <div className="container">
             <div id="cards-container">
