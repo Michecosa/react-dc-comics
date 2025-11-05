@@ -31,7 +31,9 @@ function App() {
         <div id="comic-cards-container">
           <div className="container">
             <h2>CURRENT SERIES</h2>
-            <ComicCards />
+            <div className="row">
+              <ComicCards />
+            </div>
           </div>
         </div>
         <div id="shop-info" className="content">
