@@ -1,0 +1,24 @@
+#comic-cards {
+  padding-block: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.comic-card {
+  overflow: hidden;
+  width: 11rem;
+  height: 11rem;
+}
+
+#comic-cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transform-origin: center top;
+}
+
+#comic-cards img.zoom {
+  transform: scale(1.6);
+}
