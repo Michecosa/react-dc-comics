@@ -1,8 +1,8 @@
-import footerFacebook from "./assets/img/footer-facebook.png";
-import footerPeriscope from "./assets/img/footer-periscope.png";
-import footerPinterest from "./assets/img/footer-pinterest.png";
-import footerTwitter from "./assets/img/footer-twitter.png";
-import footerYoutube from "./assets/img/footer-youtube.png";
+import footerFacebook from "../assets/img/footer-facebook.png";
+import footerPeriscope from "../assets/img/footer-periscope.png";
+import footerPinterest from "../assets/img/footer-pinterest.png";
+import footerTwitter from "../assets/img/footer-twitter.png";
+import footerYoutube from "../assets/img/footer-youtube.png";
 import "./Footer.css";
 
 export default function Footer() {

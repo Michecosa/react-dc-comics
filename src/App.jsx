@@ -1,14 +1,14 @@
 import "./App.css";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Card from "./Card";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Card from "./components/Card";
 
 import digitalComics from "./assets/img/buy-comics-digital-comics.png";
 import merchandise from "./assets/img/buy-comics-merchandise.png";
 import subscriptions from "./assets/img/buy-comics-subscriptions.png";
 import shopLocator from "./assets/img/buy-comics-shop-locator.png";
 import powerVisa from "./assets/img/buy-dc-power-visa.svg";
-import FakeFooter from "./FakeFooter";
+import FakeFooter from "./components/FakeFooter";
 
 function App() {
   return (

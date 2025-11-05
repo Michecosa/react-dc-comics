@@ -1,5 +1,5 @@
 import "./FakeFooter.css";
-import DC_Logo from "./assets/img/dc-logo-bg.png";
+import DC_Logo from "../assets/img/dc-logo-bg.png";
 
 export default function FakeFooter() {
   return (
