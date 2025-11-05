@@ -3,13 +3,11 @@ import comics from "../data/comics.js";
 
 export default function ComicCards() {
   return (
-    <div className="comic-cards">
+    <div id="comic-cards">
       {comics.map((comic) => (
         <div key={comic.id} className="comic-card">
-          <img src={comic.thumb} alt={comic.title} />
-          <h3>{comic.title}</h3>
+          <img src={comic.thumb} alt={comic.series} />
           <p>{comic.series}</p>
-          <span>{comic.price}</span>
         </div>
       ))}
     </div>
