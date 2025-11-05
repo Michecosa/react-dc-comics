@@ -67,3 +67,19 @@ main {
 #bottom-footer {
   background-color: var(--dark-gray);
 }
+
+#comic-cards-container {
+  position: relative;
+  padding-top: 2rem;
+
+  h2 {
+    display: inline;
+    padding: 1rem;
+    color: white;
+    background-color: var(--blue);
+
+    position: absolute;
+    top: -6%;
+    left: 15.5%;
+  }
+}
