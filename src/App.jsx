@@ -9,6 +9,7 @@ import subscriptions from "./assets/img/buy-comics-subscriptions.png";
 import shopLocator from "./assets/img/buy-comics-shop-locator.png";
 import powerVisa from "./assets/img/buy-dc-power-visa.svg";
 import FakeFooter from "./components/FakeFooter";
+import ComicCards from "./components/ComicCards";
 
 function App() {
   return (
@@ -27,7 +28,12 @@ function App() {
             </div>
           </div>
         </div>
-        <div id="comic-cards-container"></div>
+        <div id="comic-cards-container">
+          <div className="container">
+            <h2>CURRENT SERIES</h2>
+            <ComicCards />
+          </div>
+        </div>
         <div id="shop-info" className="content">
           <div className="container">
             <div id="cards-container">
