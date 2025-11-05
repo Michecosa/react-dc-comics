@@ -59,13 +59,23 @@ nav li:hover {
   display: flex;
 }
 
-@media (max-width: 1840px) {
+@media (max-width: 1920px) {
+  nav {
+    font-size: 0.85rem;
+
+    ul {
+      gap: 30px;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  header {
+    padding-block: 1rem;
+  }
+
   .menu-toggle {
     display: block;
-
-    &.btn {
-      padding-block: 3.5rem;
-    }
   }
 
   .links-container {
