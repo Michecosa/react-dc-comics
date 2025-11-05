@@ -11,6 +11,29 @@ import powerVisa from "./assets/img/buy-dc-power-visa.svg";
 import FakeFooter from "./components/FakeFooter";
 import ComicCards from "./components/ComicCards";
 
+export const cardsData = [
+  {
+    imageUrl: digitalComics,
+    text: "Digital comics",
+  },
+  {
+    imageUrl: merchandise,
+    text: "DC merchandise",
+  },
+  {
+    imageUrl: subscriptions,
+    text: "Subscription",
+  },
+  {
+    imageUrl: shopLocator,
+    text: "Comic Shop locator",
+  },
+  {
+    imageUrl: powerVisa,
+    text: "DC power visa",
+  },
+];
+
 function App() {
   return (
     <>
@@ -44,11 +67,9 @@ function App() {
         <div id="shop-info" className="content">
           <div className="container">
             <div id="cards-container">
-              <Card imageUrl={digitalComics} text="Digital comics" />
-              <Card imageUrl={merchandise} text="DC merchandise" />
-              <Card imageUrl={subscriptions} text="Subscription" />
-              <Card imageUrl={shopLocator} text="Comic Shop locator" />
-              <Card imageUrl={powerVisa} text="DC power visa" />
+              {cardsData.map((card, index) => (
+                <Card key={index} imageUrl={card.imageUrl} text={card.text} />
+              ))}
             </div>
           </div>
         </div>
