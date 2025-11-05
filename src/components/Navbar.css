@@ -32,6 +32,9 @@ nav a {
 
 nav li:hover {
   cursor: pointer;
+}
+
+nav li.current {
   color: #0282f9;
   border-bottom: 4px solid #0282f9;
 }

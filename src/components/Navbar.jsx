@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className="links-container">
         <ul>
           {navLinks.map((link, index) => (
-            <li key={index}>
+            <li key={index} className={link.current ? "current" : ""}>
               <a href={link.href}>{link.label}</a>
             </li>
           ))}
