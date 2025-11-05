@@ -38,6 +38,10 @@ body,
   overflow-x: hidden;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 header {
   flex-shrink: 0;
 }
@@ -48,7 +52,6 @@ main {
 
 footer {
   flex-shrink: 0;
-  overflow-y: hidden;
 }
 
 header {
