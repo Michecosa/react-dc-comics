@@ -15,6 +15,14 @@
   font-weight: bolder;
 }
 
+.text-center {
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 html,
 body,
 #root {
@@ -73,13 +81,22 @@ main {
   padding-top: 2rem;
 
   h2 {
-    display: inline;
-    padding: 1rem;
-    color: white;
-    background-color: var(--blue);
-
     position: absolute;
     top: -6%;
     left: 15.5%;
   }
+
+  button {
+    border: 0;
+    margin-bottom: 2rem;
+    padding-inline: 4rem;
+    padding-block: 0.7rem;
+  }
+}
+
+.btn-blue {
+  display: inline;
+  padding: 1rem;
+  color: white;
+  background-color: var(--blue);
 }

@@ -30,9 +30,14 @@ function App() {
         </div>
         <div id="comic-cards-container">
           <div className="container">
-            <h2>CURRENT SERIES</h2>
+            <h2 className="btn-blue">CURRENT SERIES</h2>
             <div className="row">
               <ComicCards />
+            </div>
+            <div className="text-center">
+              <button id="load-more" className="btn-blue">
+                LOAD MORE
+              </button>
             </div>
           </div>
         </div>
