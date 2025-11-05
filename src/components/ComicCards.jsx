@@ -3,9 +3,12 @@ import comics from "../data/comics.js";
 
 export default function ComicCards() {
   return (
-    <div id="comic-cards">
+    <div id="comic-cards" className="row">
       {comics.map((comic) => (
-        <div key={comic.id} className="comic-card">
+        <div
+          key={comic.id}
+          className="comic-card col-xl-2 col-lg-3 col-md-6 col-sm-12"
+        >
           <div className="image-wrapper">
             <img
               src={comic.id === 5 ? comics[5].thumb : comic.thumb}
