@@ -115,7 +115,7 @@ i:hover {
   visibility: visible;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1845px) {
   .links-container {
     display: none;
   }
