@@ -2,16 +2,16 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Logo from "./Logo";
 import "./Navbar.css";
 const navLinks = [
-  { label: "Characters", href: "#" },
-  { label: "Comics", href: "#" },
-  { label: "Movies", href: "#" },
-  { label: "Tv", href: "#" },
-  { label: "Games", href: "#" },
-  { label: "Collectibles", href: "#" },
-  { label: "Videos", href: "#" },
-  { label: "Fans", href: "#" },
-  { label: "News", href: "#" },
-  { label: "Shop", href: "#" },
+  { label: "Characters", href: "#", current: false },
+  { label: "Comics", href: "#", current: true },
+  { label: "Movies", href: "#", current: false },
+  { label: "Tv", href: "#", current: false },
+  { label: "Games", href: "#", current: false },
+  { label: "Collectibles", href: "#", current: false },
+  { label: "Videos", href: "#", current: false },
+  { label: "Fans", href: "#", current: false },
+  { label: "News", href: "#", current: false },
+  { label: "Shop", href: "#", current: false },
 ];
 
 export default function Navbar() {
