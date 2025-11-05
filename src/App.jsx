@@ -20,9 +20,11 @@ function App() {
       </header>
 
       <main>
-        <div className="container">
-          <div className="content">
-            <h2>--&gt; Content goes here &lt;--</h2>
+        <div id="top-main">
+          <div className="container">
+            <div className="content">
+              {/* <h2>--&gt; Content goes here &lt;--</h2> */}
+            </div>
           </div>
         </div>
         <div id="shop-info" className="content">

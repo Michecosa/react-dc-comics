@@ -19,3 +19,12 @@
   flex-wrap: wrap;
   gap: 2rem;
 }
+
+#top-main {
+  background-image: url("./assets/img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  min-height: 25rem;
+}
