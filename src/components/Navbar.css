@@ -3,7 +3,6 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
 nav ul {
   display: flex;
   flex-wrap: no-wrap;
@@ -16,12 +15,9 @@ nav li {
   border-bottom: 4px solid white;
 }
 
-nav li:first-child {
-  margin-left: 0;
-}
-
-nav li:last-child {
-  margin-right: 0;
+nav li.current {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
 }
 
 nav a {
@@ -30,58 +26,101 @@ nav a {
   text-transform: uppercase;
 }
 
-nav li:hover {
-  cursor: pointer;
-}
-
-nav li.current {
-  color: #0282f9;
-  border-bottom: 4px solid #0282f9;
-}
-
-/* Responsive */
 .btn {
   background-color: transparent;
-  border: 0;
+  border: none;
 }
 
 .btn-burger {
   font-size: 2rem;
+  display: none;
+  cursor: pointer;
 }
 
-.btn-burger:hover {
+i:hover {
   cursor: pointer;
   color: #0282f9;
 }
 
-.menu-toggle {
-  display: none;
-}
-
-.links-container {
+.offcanvas-menu {
   display: flex;
+  flex-direction: column;
+
+  width: 250px;
+  height: 100vh;
+  background-color: white;
+  color: black;
+  padding: 2rem;
+
+  position: fixed;
+  top: 0;
+  right: -250px;
+  z-index: 13;
+
+  transition: right 0.3s ease-in-out;
 }
 
-@media (max-width: 1920px) {
-  nav {
-    font-size: 0.85rem;
+.offcanvas-menu {
+  text-align: right;
 
-    ul {
-      gap: 30px;
-    }
+  button {
+    padding: 0;
   }
+
+  .close-btn {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: left;
+  }
+}
+
+.offcanvas-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+
+  line-height: 2.5rem;
+}
+
+.offcanvas-menu a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.offcanvas-menu a:hover {
+  color: #0282f9;
+}
+
+.offcanvas-menu.open {
+  right: 0;
+}
+
+.overlay {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  transition: all 0.3s ease;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 12;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media (max-width: 1500px) {
-  header {
-    padding-block: 1rem;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
   .links-container {
     display: none;
+  }
+
+  .btn-burger {
+    display: block;
   }
 }

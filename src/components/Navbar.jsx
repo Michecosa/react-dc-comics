@@ -15,25 +15,50 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  const handleToggleMenu = () => {
+    document.querySelector(".offcanvas-menu").classList.toggle("open");
+    document.querySelector(".overlay").classList.toggle("active");
+  };
+
   return (
-    <nav>
-      <div className="logo-container">
-        <Logo />
-      </div>
+    <>
+      <nav>
+        <div className="logo-container">
+          <Logo />
+        </div>
 
-      <button className="menu-toggle btn btn-burger">
-        <i className="bi bi-list"></i>
-      </button>
+        <button
+          className="menu-toggle btn btn-burger"
+          onClick={handleToggleMenu}
+        >
+          <i className="bi bi-list"></i>
+        </button>
 
-      <div className="links-container">
+        <div className="links-container">
+          <ul>
+            {navLinks.map((link, index) => (
+              <li key={index} className={link.current ? "current" : ""}>
+                <a href={link.href}>{link.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
+
+      <div className="offcanvas-menu">
+        <button className="close-btn btn" onClick={handleToggleMenu}>
+          <i className="bi bi-x-lg"></i>
+        </button>
         <ul>
           {navLinks.map((link, index) => (
-            <li key={index} className={link.current ? "current" : ""}>
+            <li key={index}>
               <a href={link.href}>{link.label}</a>
             </li>
           ))}
         </ul>
       </div>
-    </nav>
+
+      <div className="overlay" onClick={handleToggleMenu}></div>
+    </>
   );
 }
