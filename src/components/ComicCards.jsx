@@ -7,7 +7,7 @@ export default function ComicCards() {
       {comics.map((comic) => (
         <div key={comic.id} className="comic-card">
           <img
-            src={comic.thumb}
+            src={comic.id === 5 ? comics[5].thumb : comic.thumb}
             alt={comic.title}
             className={comic.id === 1 || comic.id === 12 ? "zoom" : ""}
           />
