@@ -112,7 +112,7 @@
   }
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 1500px) {
   .col-lg-1 {
     flex-basis: calc(100% / 12 * 1 - var(--gap));
     max-width: calc(100% / 12 * 1 - var(--gap));
