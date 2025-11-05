@@ -1,9 +1,6 @@
 #comic-cards {
   color: white;
   padding-block: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
 }
 
 .comic-card {
@@ -11,10 +8,9 @@
 }
 
 .image-wrapper {
-  width: 11rem;
-  height: 11rem;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
-  border-radius: 0.3rem;
 }
 
 .image-wrapper img {
