@@ -1,5 +1,5 @@
-import FakeFooter from "./FakeFooter";
-import BottomFooter from "./BottomFooter";
+import FakeFooter from "./footer-components/FakeFooter";
+import BottomFooter from "./footer-components/BottomFooter";
 
 export default function Footer() {
   return (

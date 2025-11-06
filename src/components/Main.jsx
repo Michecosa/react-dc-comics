@@ -1,4 +1,4 @@
-import ComicCards from "./ComicCards";
+import ComicCards from "./comics-cards/ComicCards";
 import Card from "./Card";
 
 export default function Main({ comics, cardsData }) {
