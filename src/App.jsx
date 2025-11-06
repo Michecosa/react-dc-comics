@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
 import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer.jsx";
 import comics from "./data/comics.js";
 
 import FakeFooter from "./components/FakeFooter";
@@ -39,18 +39,7 @@ function App() {
     <>
       <Header />
       <Main comics={comics} cardsData={cardsData} />
-      <footer>
-        <div id="top-footer">
-          <div className="container">
-            <FakeFooter />
-          </div>
-        </div>
-        <div id="bottom-footer">
-          <div className="container">
-            <Footer />
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
