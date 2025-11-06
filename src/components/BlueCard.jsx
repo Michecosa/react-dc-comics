@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./BlueCard.css";
 
 function Card({ imageUrl, text }) {
   return (
