@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header.jsx";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
 import comics from "./data/comics.js";
@@ -38,11 +38,7 @@ export const cardsData = [
 function App() {
   return (
     <>
-      <header>
-        <div className="container">
-          <Navbar />
-        </div>
-      </header>
+      <Header />
 
       <main>
         <div id="top-main">
