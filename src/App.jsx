@@ -4,7 +4,6 @@ import Main from "./components/Main";
 import Footer from "./components/Footer.jsx";
 import comics from "./data/comics.js";
 
-import FakeFooter from "./components/FakeFooter";
 import digitalComics from "./assets/img/buy-comics-digital-comics.png";
 import merchandise from "./assets/img/buy-comics-merchandise.png";
 import subscriptions from "./assets/img/buy-comics-subscriptions.png";
