@@ -1,16 +1,15 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Card from "./components/Card";
 import comics from "./data/comics.js";
 
+import FakeFooter from "./components/FakeFooter";
 import digitalComics from "./assets/img/buy-comics-digital-comics.png";
 import merchandise from "./assets/img/buy-comics-merchandise.png";
 import subscriptions from "./assets/img/buy-comics-subscriptions.png";
 import shopLocator from "./assets/img/buy-comics-shop-locator.png";
 import powerVisa from "./assets/img/buy-dc-power-visa.svg";
-import FakeFooter from "./components/FakeFooter";
-import ComicCards from "./components/ComicCards";
 
 export const cardsData = [
   {
@@ -39,39 +38,7 @@ function App() {
   return (
     <>
       <Header />
-
-      <main>
-        <div id="top-main">
-          <div className="container">
-            <div className="content">
-              {/* <h2>--&gt; Content goes here &lt;--</h2> */}
-            </div>
-          </div>
-        </div>
-        <div id="comic-cards-container">
-          <div className="container">
-            <h2 className="btn-blue">CURRENT SERIES</h2>
-            <div className="row">
-              <ComicCards comics={comics} />
-            </div>
-            <div className="text-center">
-              <button id="load-more" className="btn-blue">
-                LOAD MORE
-              </button>
-            </div>
-          </div>
-        </div>
-        <div id="shop-info" className="content">
-          <div className="container">
-            <div id="cards-container">
-              {cardsData.map((card, index) => (
-                <Card key={index} imageUrl={card.imageUrl} text={card.text} />
-              ))}
-            </div>
-          </div>
-        </div>
-      </main>
-
+      <Main comics={comics} cardsData={cardsData} />
       <footer>
         <div id="top-footer">
           <div className="container">
