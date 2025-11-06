@@ -1,8 +1,7 @@
 import "./ComicCards.css";
-import comics from "../data/comics.js";
 import ComicCard from "./ComicCard";
 
-export default function ComicCards() {
+export default function ComicCards({ comics }) {
   return (
     <div id="comic-cards" className="row">
       {comics.map((comic) => (

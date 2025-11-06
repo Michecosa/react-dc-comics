@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
+import comics from "./data/comics.js";
 
 import digitalComics from "./assets/img/buy-comics-digital-comics.png";
 import merchandise from "./assets/img/buy-comics-merchandise.png";
@@ -55,7 +56,7 @@ function App() {
           <div className="container">
             <h2 className="btn-blue">CURRENT SERIES</h2>
             <div className="row">
-              <ComicCards />
+              <ComicCards comics={comics} />
             </div>
             <div className="text-center">
               <button id="load-more" className="btn-blue">
